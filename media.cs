@@ -1,9 +1,3 @@
-﻿using System;
-    class Program
-    {
-        static void Main()
-        {
-            { 
                 Console.WriteLine("=== Calculadora Escolar ===");
                 Console.Write("Digite a primeira nota: ");
                 double nota1 = Convert.ToDouble(Console.ReadLine());
@@ -13,8 +7,4 @@
                 double media = soma / 2;
                 Console.WriteLine($"Soma das notas: {soma}");
                 Console.WriteLine($"Média: {media}");
-            }
-        }
-
-    }
-
+            
